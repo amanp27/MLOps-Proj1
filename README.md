@@ -5,6 +5,7 @@ MLOps Project: End-to-End Insurance Vehicle Claim Prediction
 An end-to-end Machine Learning project integrated with MLOps tools and best practices. The project predicts whether a vehicle insurance claim will be made or not, using a structured dataset.
 
 🧱 Project Structure
+```
 MLOps-Proj1/
 ├── src/
 │   ├── components/
@@ -25,7 +26,7 @@ MLOps-Proj1/
 ├── requirements.txt
 ├── setup.py
 └── README.md
-
+```
 🧩 Key Modules
 
 📥 Data Ingestion
@@ -102,6 +103,7 @@ pip install -r requirements.txt
 python app.py
 
 📊 Architecture Diagram
+```
 +--------------------+
 |     Data Source    |
 +---------+----------+
@@ -135,7 +137,7 @@ python app.py
 +---------+----------+
 |   Deployment (UI)  |
 +--------------------+
-
+```
 
 ✅ GitHub Actions CI/CD
 Sample .github/workflows/main.yml:
